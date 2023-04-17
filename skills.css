@@ -1,0 +1,62 @@
+
+
+ /*main */
+main {
+  width: 100%;
+  margin: 0 auto;
+  height: 80vh; 
+  padding: 40px;
+  margin-bottom: 60px; 
+  background-color: #CCD5AE;
+}
+
+
+.skill {
+  margin-bottom: 20px;
+  
+}
+
+.skill h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #A3B18A;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.5s ease-in-out;
+}
+
+.read-more {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.progress-details {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .skill {
+    width: 100%;
+  }
+}
+
+
+  
